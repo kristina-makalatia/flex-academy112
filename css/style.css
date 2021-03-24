@@ -1,0 +1,80 @@
+/* section#1 */
+.sectionvideo {
+    background-color: #363E97;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.left-video {
+    width:570px;
+    height:320px;
+    background-color:lightblue;
+    /* margin-right: 30px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.right-video {
+    width: 570px;
+    height: 320px;
+    background: rgb(2,0,36);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(2,0,36,1)), color-stop(36%, rgba(18,128,209,1)), color-stop(80%, rgba(121,121,140,1)));
+    background: -o-linear-gradient(left, rgba(2,0,36,1) 0%, rgba(18,128,209,1) 36%, rgba(121,121,140,1) 80%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,128,209,1) 36%, rgba(121,121,140,1) 80%);
+}
+.video-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+/* section#2 */
+.sectionimages {
+    background-color: #BDCCD4;
+}
+.images-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.image-box {
+    width:270px;
+}
+.image-box img {
+    width:100%;
+}
+
+/* social icons */
+.fa-facebook-f {
+    color:blue;
+    font-size: 30px;
+}
+.youtube-icon {
+    color: red;
+    font-size:30px;
+    -webkit-transition: all 0.5s linear 2s;
+    -o-transition: all 0.5s linear 2s;
+    transition: all 0.5s linear 2s;
+}
+.youtube-icon:hover {
+    color: green;
+}
+.fa-facebook-f:hover {
+    color: aqua;
+}
+.icon-Path-409:before {
+    color: blue;
+}
