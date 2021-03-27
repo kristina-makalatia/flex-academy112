@@ -2,13 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flexbox</title>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>   
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <header class="header-wraper">
+        <a href="#">LOGO</a>
+
+        <div class="right-block-header">
+            <nav>
+                <ul class="nav-ul">
+                    <li class="nav-li"> <a href="#"> Home</a></li>
+                    <li class="nav-li"> <a href="#"> About</a></li>
+                    <li class="nav-li active"> <a href="#"> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
     <section class="sectionvideo">
        <div class="container">
            <h3> VIDEOS | view all videos</h3>
@@ -21,30 +39,44 @@
        </div>
     </section>
 
-    <section>
-        <div class="container">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-youtube youtube-icon"></i>
-            <i class="icon-Path-409"></i>
-        </div>
-    </section>
-
     <section class="sectionimages">
         <div class="container">
             <h3> NEWS | view all news</h3>
             <div class="images-wraper">
                 <div class="image-box">
                     <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
+                    <p>1</p>
                 </div>
                 <div class="image-box">
                     <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
+                    <p>2</p>
                 </div>
                 <div class="image-box">
                     <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
+                    <p>3</p>
                 </div>
                 <div class="image-box">
                     <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
+                    <p>4</p>
                 </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- pseudo classes -->
+    <section>
+        <div class="wraper">
+            <div class="box">
+                <p class="test"> Test</p>
+            </div>
+            <div class="box">
+                <p class="test"> Test</p>
+            </div>
+            <div class="box">
+                <p class="test"> Test</p>
+            </div>
+            <div class="box">
+                <p class="test"> Test</p>
             </div>
         </div>
     </section>
