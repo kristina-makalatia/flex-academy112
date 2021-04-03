@@ -3,83 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive</title>   
+    <title>Forms & meta tags</title>   
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <header class="header-wraper">
-        <a href="#">LOGO</a>
-
-        <div class="right-block-header">
-            <nav>
-                <ul class="nav-ul">
-                    <li class="nav-li"> <a href="#"> Home</a></li>
-                    <li class="nav-li"> <a href="#"> About</a></li>
-                    <li class="nav-li active"> <a href="#"> Contact</a></li>
-                </ul>
-            </nav>
-            <div class="burger-icon">
-                <i class="fas fa-bars"></i>
-            </div>
+    <form class="form-wraper" action="">
+        <div class="div-wraper">
+            <label for="fname"> Name</label>
+            <input class="input-wraper" type="text" id="fname" name="name" placeholder="Enter Your Name.." required>
         </div>
-    </header>
-    <section class="sectionvideo">
-       <div class="container">
-           <h3> VIDEOS | view all videos</h3>
-           <div class="video-wraper">
-               <div class="left-video">
-                   <p> EMBEDED YOUTUBE VIDEO GOES HEREaaaaaaaaaaaaaaaaaa</p>
-               </div>
-               <div class="right-video"></div>
-           </div>
-       </div>
-    </section>
-
-    <section class="sectionimages">
-        <div class="container">
-            <h3> NEWS | view all news</h3>
-            <div class="images-wraper">
-                <div class="image-box">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
-                    <p>1</p>
-                </div>
-                <div class="image-box">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
-                    <p>2</p>
-                </div>
-                <div class="image-box">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
-                    <p>3</p>
-                </div>
-                <div class="image-box">
-                    <img src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg" alt="image">
-                    <p>4</p>
-                </div>
-            </div>
+        <div class="div-wraper">
+            <label for="passw"> Password</label>
+            <input class="input-wraper" type="password" id="passw" name="mypass" placeholder="Enter Your Password..." required>
         </div>
-    </section> 
 
-    <!-- pseudo classes -->
-    <section>
-        <div class="wraper">
-            <div class="box">
-                <p class="test"> Test</p>
-            </div>
-            <div class="box">
-                <p class="test"> Test</p>
-            </div>
-            <div class="box">
-                <p class="test"> Test</p>
-            </div>
-            <div class="box">
-                <p class="test"> Test</p>
-            </div>
+        <div class="div-wraper">
+            <label for=""> Review</label>
+            <textarea class="textare-wraper" name="" id="" placeholder="Enter Your Message.."></textarea>
         </div>
-    </section>
-    
+
+        <div>
+            <div>
+                <input type="radio" name="gender" id="male">
+                <label for="">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="female">
+                <label for="">Female</label>
+            </div>      
+        </div>
+
+        <div>
+            <input type="checkbox" name="musichobby" id="music">
+            <label for="">Music</label>
+            <input type="checkbox" name="dancehobby" id="dance">
+            <label for="">Dance</label>
+        </div>
+        <button class="btn-submit" type="submit"> Send</button>
+    </form>
+   
+
 </body>
 </html>
